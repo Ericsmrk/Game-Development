@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1675301251 source:c:\users\erics\desktop\178\workspace\lesson1\main.cpp
+	<windows.h>
+	<GLScene.h>
+	<stdlib.h>
+	<iostream>
+	<windows.h>
+
+1675299207 c:\users\erics\desktop\178\workspace\lesson1\include\glscene.h
+	<windows.h>
+	<GL/glut.h>
+	<iostream>
+
+1674971938 c:\users\erics\desktop\178\workspace\common\include\gl\glut.h
+	<windows.h>
+	<stdlib.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1675298741 source:c:\users\erics\desktop\178\workspace\lesson1\src\test.cpp
+	"test.h"
+
+1675298741 c:\users\erics\desktop\178\workspace\lesson1\include\test.h
+
+1675301298 source:c:\users\erics\desktop\178\workspace\lesson1\src\glscene.cpp
+	"GLScene.h"
+
+1675301179 source:c:\users\erics\desktop\178\workspace\lesson1\src\gllight.cpp
+	"GLLight.h"
+
+1675301144 c:\users\erics\desktop\178\workspace\lesson1\include\gllight.h
+	<GLScene.h>
+
