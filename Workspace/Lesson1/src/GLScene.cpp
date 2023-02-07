@@ -1,4 +1,6 @@
 #include "GLScene.h"
+//#include "<GLLight.h>
+#include "GLLight.h"
 
 GLScene::GLScene()
 {
@@ -29,13 +31,19 @@ int GLScene::GLinit()
     glDepthFunc(GL_LEQUAL);
     glClearColor(0.0f,0.0f,0.0f,0.0f);
 
+    glEnable(GL_LIGHTING);
+    glEnable(GL_LIGHT0);
+    glEnable(GL_COLOR_MATERIAL); //maybe disable and have just texture?
+    GLLight Light(GL_LIGHT0);
+    Light.setLight(GL_LIGHT0);
+
     return true;
     //return false;
 }
 
 void GLScene::GLReSize(GLsizei width, GLsizei height)
 {
-    float ratio = width/height;
+    float ratio = (float)width/(float)height;
     glViewport(0,0, width, height);
     glMatrixMode(GL_PROJECTION);
     gluPerspective(45.0,ratio, 0.1, 1000);

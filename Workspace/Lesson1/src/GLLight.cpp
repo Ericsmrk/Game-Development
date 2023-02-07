@@ -1,6 +1,6 @@
 #include "GLLight.h"
 
-GLLight::GLLight()
+GLLight::GLLight(GLenum Light)
 {
     //ctor
 }
@@ -12,8 +12,8 @@ GLLight::~GLLight()
 
 }
 
-/*
-void GLLight::setLight(enum Light)
+
+void GLLight::setLight(GLenum Light)
     {
         glLightfv(Light, GL_AMBIENT,  light_ambient);
         glLightfv(Light, GL_DIFFUSE,  light_diffuse);
@@ -26,4 +26,4 @@ void GLLight::setLight(enum Light)
         glMaterialfv(GL_FRONT, GL_SHININESS, high_shininess);
 
     }
-*/
+
