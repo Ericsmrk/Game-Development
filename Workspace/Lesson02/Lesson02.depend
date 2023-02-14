@@ -1,6 +1,8 @@
 # depslib dependency file v1.0
-1675731373 source:c:\users\erics\desktop\178\workspace\lesson02\src\model.cpp
+1675761613 source:c:\users\erics\desktop\178\workspace\lesson02\src\model.cpp
 	"Model.h"
+	<windows.h>
+	<GL/glut.h>
 
 1675732306 c:\users\erics\desktop\178\workspace\lesson02\include\model.h
 
@@ -11,7 +13,7 @@
 	<iostream>
 	<windows.h>
 
-1675299207 c:\users\erics\desktop\178\workspace\lesson02\include\glscene.h
+1675901230 c:\users\erics\desktop\178\workspace\lesson02\include\glscene.h
 	<windows.h>
 	<GL/glut.h>
 	<iostream>
@@ -28,7 +30,8 @@
 1675731162 c:\users\erics\desktop\178\workspace\lesson02\include\gllight.h
 	<GLScene.h>
 
-1675729624 source:c:\users\erics\desktop\178\workspace\lesson02\src\glscene.cpp
+1675761908 source:c:\users\erics\desktop\178\workspace\lesson02\src\glscene.cpp
 	"GLScene.h"
 	"GLLight.h"
+	"Model.h"
 

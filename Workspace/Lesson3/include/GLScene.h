@@ -14,6 +14,8 @@ class GLScene
         int GLinit();                           // initialize the scene
         void GLReSize(GLsizei, GLsizei);        // callback function for resize
 
+        //handle keyboard functionality
+        int winMsg(HWND,UINT,WPARAM,LPARAM);
 
     protected:
 

@@ -22,13 +22,13 @@
 
 1675298741 c:\users\erics\desktop\178\workspace\lesson1\include\test.h
 
-1675729475 source:c:\users\erics\desktop\178\workspace\lesson1\src\glscene.cpp
+1675729624 source:c:\users\erics\desktop\178\workspace\lesson1\src\glscene.cpp
 	"GLScene.h"
 	"GLLight.h"
 
 1675729217 source:c:\users\erics\desktop\178\workspace\lesson1\src\gllight.cpp
 	"GLLight.h"
 
-1675729384 c:\users\erics\desktop\178\workspace\lesson1\include\gllight.h
+1675730591 c:\users\erics\desktop\178\workspace\lesson1\include\gllight.h
 	<GLScene.h>
 
